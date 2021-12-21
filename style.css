@@ -1,0 +1,179 @@
+* {
+  text-align: center;
+  margin: auto;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+body {
+  background-color: #ab0909;
+  background-image: url("pattern.png");
+  width: 100%;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title_image {
+  width: 35rem;
+  margin-top: -5rem;
+}
+
+.container {
+  margin-top: -5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 0;
+  color: yellow;
+  font-size: 2.7rem;
+  font-weight: lighter;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+  padding: 0.2rem 0.3rem;
+  margin: 0.1rem 0.5rem;
+  font-size: 1.5rem;
+}
+
+.menu_set {
+  padding: 0.4rem;
+}
+
+.btn:hover {
+  font-size: 2rem;
+}
+
+#main:checked ~ #main_btn,
+#menu1:checked ~ #menu1_btn,
+#menu2:checked ~ #menu2_btn,
+#menu3:checked ~ #menu3_btn,
+#menu4:checked ~ #menu4_btn,
+#menu5:checked ~ #menu5_btn,
+#menu6:checked ~ #menu6_btn,
+#menu7:checked ~ #menu7_btn,
+#menu8:checked ~ #menu8_btn,
+#menu9:checked ~ #menu9_btn,
+#menu10:checked ~ #menu10_btn,
+#menu11:checked ~ #menu11_btn {
+  border-bottom: whitesmoke solid 4px;
+  font-size: 2.2rem;
+}
+
+.content {
+  margin: 2rem 0;
+}
+
+.content > iframe {
+  width: 40rem;
+  height: 22.5rem;
+}
+
+.poster {
+  width: 40rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#invite_image {
+  width: 33rem;
+}
+
+p {
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  color: yellow;
+}
+
+.drop {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  opacity: 0;
+}
+.snow {
+  height: 8px;
+  width: 8px;
+  border-radius: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 10px #fff;
+}
+
+.animate {
+  animation: falling 8.5s infinite ease-in;
+}
+
+@keyframes falling {
+  0% {
+    top: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 1500px;
+    opacity: 0;
+  }
+}
+
+@media (orientation: portrait) {
+  #title_image {
+    width: 100%;
+    margin-top: -4rem;
+  }
+
+  label {
+    font-size: 1.7rem;
+  }
+
+  .content {
+    position: relative;
+    width: 100%;
+    height: 0;
+  }
+
+  .youtube {
+    padding-top: 56%;
+  }
+
+  .content > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .poster {
+    width: 95%;
+  }
+
+  #invite_image {
+    width: 98%;
+  }
+}
