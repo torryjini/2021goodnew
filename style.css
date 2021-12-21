@@ -78,8 +78,9 @@ label {
 #menu9:checked ~ #menu9_btn,
 #menu10:checked ~ #menu10_btn,
 #menu11:checked ~ #menu11_btn {
-  border-bottom: whitesmoke solid 4px;
+  border-bottom: yellow solid 4px;
   font-size: 2.2rem;
+  color: yellow;
 }
 
 .content {
