@@ -19,7 +19,7 @@ function snow(num, speed) {
 			$('body').append(drop);
 			$('#drop_' + num).css('left', position);
 			num--;
-			snowDrop(num, randomInt(60, 1400));
+			snowDrop(num, randomInt(60, 1280));			
 		}
 	};
 
