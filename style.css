@@ -137,7 +137,7 @@ p {
     opacity: 1;
   }
   100% {
-    top: 1500px;
+    top: 125%;
     opacity: 0;
   }
 }
