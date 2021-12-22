@@ -35,7 +35,7 @@ function btnHandler(){
         content.classList.remove("youtube")
     } else if(menu6.checked) {
         content.innerHTML = `<iframe src="https://www.youtube.com/embed/0QjcNmi67tM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
-        content.classList.remove("youtube")
+        content.classList.add("youtube")
     } else if(menu7.checked) {
         content.innerHTML = `<h1>쿠칭목장 준비 중입니다...</h1>`
         content.classList.remove("youtube")
@@ -50,7 +50,7 @@ function btnHandler(){
         content.classList.add("youtube")
     } else if(menu11.checked) {
         content.innerHTML = `<iframe src="https://www.youtube.com/embed/HyAzW-LyO-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
-        content.classList.remove("youtube")
+        content.classList.add("youtube")
     }
 }
 
