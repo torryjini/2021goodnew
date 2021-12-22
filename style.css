@@ -33,7 +33,7 @@ header {
 }
 
 .container {
-  margin-top: -5rem;
+  margin-top: -4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,7 +43,7 @@ header {
 h1 {
   margin-bottom: 0;
   color: yellow;
-  font-size: 2.7rem;
+  font-size: 2.2rem;
   font-weight: lighter;
 }
 
@@ -55,7 +55,7 @@ label {
   cursor: pointer;
   padding: 0.2rem 0.3rem;
   margin: 0.1rem 0.5rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .menu_set {
@@ -63,7 +63,7 @@ label {
 }
 
 .btn:hover {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 #main:checked ~ #main_btn,
@@ -79,7 +79,7 @@ label {
 #menu10:checked ~ #menu10_btn,
 #menu11:checked ~ #menu11_btn {
   border-bottom: yellow solid 4px;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: yellow;
 }
 
