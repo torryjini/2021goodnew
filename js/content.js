@@ -31,10 +31,10 @@ function btnHandler(){
         content.innerHTML = `<iframe src="https://www.youtube.com/embed/vC8KU-7kb0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
         content.classList.add("youtube")
     } else if(menu5.checked) {
-        content.innerHTML = `<h1>동고비목장 준비 중입니다...</h1>`
+        content.innerHTML = `<img class="poster" src="img/동고비2.png" alt="동고비목장 포스터"><img class="poster" src="img/동고비1.png" alt="동고비목장 포스터">`
         content.classList.remove("youtube")
     } else if(menu6.checked) {
-        content.innerHTML = `<iframe src="https://www.youtube.com/embed/0QjcNmi67tM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+        content.innerHTML = `<iframe src="https://www.youtube.com/embed/yXBA8xT_ikE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
         content.classList.add("youtube")
     } else if(menu7.checked) {
         content.innerHTML = `<h1>쿠칭목장 준비 중입니다...</h1>`
@@ -49,7 +49,8 @@ function btnHandler(){
         content.innerHTML = `<iframe src="https://www.youtube.com/embed/GGAS-Z1OVNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
         content.classList.add("youtube")
     } else if(menu11.checked) {
-        content.innerHTML = `<iframe src="https://www.youtube.com/embed/HyAzW-LyO-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+        content.innerHTML = `<iframe src="https://www.youtube.com/embed/HyAzW-LyO-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                             <br><br><iframe src="https://www.youtube.com/embed/eZKM0cGttRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
         content.classList.add("youtube")
     }
 }
