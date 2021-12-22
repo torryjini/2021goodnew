@@ -17,7 +17,7 @@ const content = document.querySelector(".content");
 function btnHandler(){
     if(main.checked) {
         content.innerHTML = `<iframe src="https://www.youtube.com/embed/ixN3_Zr0b8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
-        content.classList.remove("youtube")
+        content.classList.add("youtube")
     } else if(menu1.checked) {
         content.innerHTML = `<iframe src="https://www.youtube.com/embed/th_OC6M6B3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
         content.classList.add("youtube")
