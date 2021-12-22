@@ -90,6 +90,8 @@ label {
 .content > iframe {
   width: 40rem;
   height: 22.5rem;
+  position: relative;
+  z-index: 2;
 }
 
 .poster {
@@ -177,5 +179,16 @@ p {
 
   #invite_image {
     width: 98%;
+  }
+
+  @keyframes falling {
+    0% {
+      top: 0;
+      opacity: 1;
+    }
+    100% {
+      top: 100%;
+      opacity: 0;
+    }
   }
 }
