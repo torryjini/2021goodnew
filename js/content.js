@@ -37,8 +37,8 @@ function btnHandler(){
         content.innerHTML = `<iframe src="https://www.youtube.com/embed/yXBA8xT_ikE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
         content.classList.add("youtube")
     } else if(menu7.checked) {
-        content.innerHTML = `<h1>쿠칭목장 준비 중입니다...</h1>`
-        content.classList.remove("youtube")
+        content.innerHTML = `<iframe src="https://www.youtube.com/embed/wx1O3B35ums" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+        content.classList.add("youtube")
     } else if(menu8.checked) {
         content.innerHTML = `<h1>치앙마이목장 준비 중입니다...</h1>`
         content.classList.remove("youtube")
@@ -46,7 +46,7 @@ function btnHandler(){
         content.innerHTML = `<h1>JG목장 준비 중입니다...</h1>`
         content.classList.remove("youtube")
     } else if(menu10.checked) {
-        content.innerHTML = `<iframe src="https://www.youtube.com/embed/GGAS-Z1OVNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+        content.innerHTML = `<iframe src="https://www.youtube.com/embed/Ou1EITKF2tc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
         content.classList.add("youtube")
     } else if(menu11.checked) {
         content.innerHTML = `<iframe src="https://www.youtube.com/embed/HyAzW-LyO-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
