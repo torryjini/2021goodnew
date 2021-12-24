@@ -193,6 +193,10 @@ p {
     width: 98%;
   }
 
+  .two_youtube {
+    margin-top: 22rem;
+  }
+
   @keyframes falling {
     0% {
       top: 0;
