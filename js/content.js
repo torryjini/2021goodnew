@@ -40,8 +40,8 @@ function btnHandler(){
         content.innerHTML = `<iframe src="https://www.youtube.com/embed/wx1O3B35ums" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
         content.classList.add("youtube")
     } else if(menu8.checked) {
-        content.innerHTML = `<h1>치앙마이목장 준비 중입니다...</h1>`
-        content.classList.remove("youtube")
+        content.innerHTML = `<iframe src="https://www.youtube.com/embed/9nO0tTj4G5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+        content.classList.add("youtube")
     } else if(menu9.checked) {
         content.innerHTML = `<h1>JG목장 준비 중입니다...</h1>`
         content.classList.remove("youtube")
