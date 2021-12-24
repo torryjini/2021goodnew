@@ -51,9 +51,10 @@ function btnHandler(){
         content.classList.add("youtube")
         invite.classList.remove("two_youtube")
     } else if(menu9.checked) {
-        content.innerHTML = `<h1>JG목장 준비 중입니다...</h1>`
-        content.classList.remove("youtube")
-        invite.classList.remove("two_youtube")
+        content.innerHTML = `<iframe src="https://www.youtube.com/embed/qAJreiJS_6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                             <br><br><iframe id="second_video" src="https://www.youtube.com/embed/p7sAt2dmNIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+        content.classList.add("youtube")
+        invite.classList.add("two_youtube")
     } else if(menu10.checked) {
         content.innerHTML = `<iframe src="https://www.youtube.com/embed/Ou1EITKF2tc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
         content.classList.add("youtube")
