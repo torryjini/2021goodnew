@@ -13,7 +13,6 @@ const menu11 = document.querySelector("#menu11");
 
 const content = document.querySelector(".content");
 
-
 function btnHandler(){
     if(main.checked) {
         content.innerHTML = `<iframe src="https://www.youtube.com/embed/ixN3_Zr0b8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
@@ -50,7 +49,7 @@ function btnHandler(){
         content.classList.add("youtube")
     } else if(menu11.checked) {
         content.innerHTML = `<iframe src="https://www.youtube.com/embed/HyAzW-LyO-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                             <br><br><iframe src="https://www.youtube.com/embed/eZKM0cGttRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+                             <br><br><iframe id="second_video" src="https://www.youtube.com/embed/eZKM0cGttRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
         content.classList.add("youtube")
     }
 }
