@@ -181,6 +181,10 @@ p {
     height: 100%;
   }
 
+  #second_video {
+    top: 110%;
+  }
+
   .poster {
     width: 95%;
   }
